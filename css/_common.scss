@@ -9,19 +9,13 @@
     box-sizing: border-box;
 }
 :root{
-    --color-primary:#06245b;
-    --color-heading:#333333;
-    --color-text-menu:#212934;
-    --color-text:#747474;
-    --color-text-body:#000;
-    --color-border:#e2e2e2;
-    --color-transparent:transparent;
-    --bg-body:#fff;
-    --bg-content:#f5f5f5;
-    --bg-footer:#1f1f1f;
-    --bg-copyright:#121212;
+    --color-primary:#ffd700;
+    --color-heading:#1E1E23;
+    --color-text-menu:#212934; 
+    --color-black:#000; 
+    --color-white:#fff;
     //font
-    --font-primary: "Roboto", serif;
+    --font-primary: "Inter", sans-serif;
     
 }
 html {
