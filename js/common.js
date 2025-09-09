@@ -203,3 +203,25 @@ $(".slider-partner").owlCarousel({
     center: false, 
 });
 
+
+$(".slider-blockchain").owlCarousel({
+    items: 3,
+    responsive: {
+        1200: { item: 3, },
+        992: { items: 3, },
+        768: { items: 2, },
+        480: { items: 2, },
+        0: { items: 1, }
+    },
+    autoplay: false,
+    autoplayHoverPause: true,
+    autoplayTimeout: 3000,
+    smartSpeed: 3000, //slide speed smooth
+    dots: false,
+    dotsEach: true,
+    loop: true,
+    nav: true,
+    navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+    margin:10, 
+    center: true, 
+});
