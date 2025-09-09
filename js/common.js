@@ -219,7 +219,7 @@ $(".slider-blockchain").owlCarousel({
     smartSpeed: 3000, //slide speed smooth
     dots: false,
     dotsEach: true,
-    loop: true,
+    loop: false,
     nav: true,
     navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
     margin:10, 
